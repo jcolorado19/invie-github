@@ -6,3 +6,17 @@ img{
   max-width: 100%;
   vertical-align: top;
 }
+
+#responsive{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  img{
+    display: none;
+  }
+
+  #responsive{
+    display: block;
+  }
+}
